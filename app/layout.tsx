@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Oswald, Roboto_Mono, Familjen_Grotesk } from "next/font/google";
 import "./globals.css";
 import TopNav from "@/components/layout/TopNav";
-import HeroCursor from "@/components/landing/HeroCursor";
 
 const oswald = Oswald({
   weight: ["300", "400", "500", "600", "700"],
@@ -39,7 +38,6 @@ export default function RootLayout({
       <body
         className={`${oswald.variable} ${robotoMono.variable} ${familjenGrotesk.variable}`}
       >
-        <HeroCursor />
         <TopNav />
         {children}
       </body>
