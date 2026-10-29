@@ -31,7 +31,6 @@ body {
   color: var(--text);
   font-family: var(--font-body, 'Familjen Grotesk', sans-serif);
   overflow-x: hidden;
-  cursor: none;
 }
 
 /* ── Noise overlay ── */
